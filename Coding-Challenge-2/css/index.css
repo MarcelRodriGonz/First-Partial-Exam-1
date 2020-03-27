@@ -5,3 +5,69 @@ div{
     padding: 5px;
 }
 
+@media (max-width:600px){
+.heading{
+    visibility: hidden;
+}
+.content{
+    visibility: hidden;
+}
+.nav-box{
+    max-width: 300px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.navigation{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.nav-box{
+    display: flex;
+    justify-content: center;
+}
+
+}
+
+@media (max-width:900px){
+    .heading{
+        visibility: hidden;
+    }
+    .navigation{
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        justify-content: space-around;
+    }
+    .nav-box{
+        width: 200px;
+        display: flex;
+        justify-content: center;
+    }
+}
+
+@media (min-width:901px){
+    .heading{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+    }
+    .heading-box{
+        width: 250px;
+        display: flex;
+        justify-content: center;
+    }
+    .navigation{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+    }
+    .nav-box{
+        width: 250px;
+        display: flex;
+        justify-content: center;
+    }
+}
